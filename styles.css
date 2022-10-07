@@ -1,0 +1,39 @@
+:root {
+    --background-color: #d4ddce;
+}
+
+.hero {
+    text-align: center;
+    background: var(--background-color);
+    padding: 160px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero p {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 96px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.hero h2 {
+    font-size: 24px;
+    line-height: 2;
+}
+
+.hero a {
+    background-color: #E18A7A;
+    border-radius: 4px;
+    padding: 16px 20px;
+    font-weight: bold;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+}
+
+.hero a:hover{
+    border: 1px solid #E18A7A;
+    color: #E18A7A;
+}
