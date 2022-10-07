@@ -1,5 +1,6 @@
 :root {
     --background-color: #d4ddce;
+    --secondary-color: #E18A7A;
 }
 
 .hero {
@@ -26,7 +27,7 @@
 }
 
 .hero a {
-    background-color: #E18A7A;
+    background-color: var(--secondary-color);
     border-radius: 4px;
     padding: 16px 20px;
     font-weight: bold;
@@ -34,6 +35,6 @@
 }
 
 .hero a:hover{
-    border: 1px solid #E18A7A;
-    color: #E18A7A;
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
 }
