@@ -38,3 +38,17 @@
     border: 1px solid var(--secondary-color);
     color: var(--secondary-color);
 }
+
+.body a {
+    background-color: var(--secondary-color);
+}
+
+.body a:hover{
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+img {
+    border-radius: 2%;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+}
