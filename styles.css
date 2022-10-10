@@ -1,54 +1,83 @@
+@media screen and (max-width: 500px) {
+  body {
+    text-align: center;
+  }
+  .about-photo {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 :root {
-    --background-color: #d4ddce;
-    --secondary-color: #E18A7A;
+  --background-color: #d4ddce;
+  --secondary-color: #e18a7a;
 }
 
 .hero {
-    text-align: center;
-    background: var(--background-color);
-    padding: 160px 20px;
-    font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background: var(--background-color);
+  padding: 160px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-about {
+  font-family: "Poppins", sans-serif;
 }
 
 .hero p {
-    font-size: 36px;
-    font-weight: bold;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.hero-about p {
+  font-size: 30px;
 }
 
 .hero h1 {
-    font-size: 96px;
-    font-weight: bold;
-    line-height: 1.2;
+  font-size: 96px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.hero-about h1 {
+  font-size: 60px;
+  font-weight: bold;
 }
 
 .hero h2 {
-    font-size: 24px;
-    line-height: 2;
+  font-size: 24px;
+  line-height: 2;
 }
 
-.hero a {
-    background-color: var(--secondary-color);
-    border-radius: 4px;
-    padding: 16px 20px;
-    font-weight: bold;
-    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+.hero-about h2 {
+  font-size: 24px;
 }
 
-.hero a:hover{
-    border: 1px solid var(--secondary-color);
-    color: var(--secondary-color);
+.hero a,
+.hero-about a {
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  padding: 16px 20px;
+  font-weight: bold;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero a:hover,
+.hero-about a:hover {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .body a {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
-.body a:hover{
-    border: 1px solid var(--secondary-color);
-    color: var(--secondary-color);
+.body a:hover {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 img {
-    border-radius: 2%;
-    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+  border-radius: 2%;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
