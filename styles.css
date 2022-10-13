@@ -132,3 +132,8 @@ footer .social-links a {
   color: var(--secondary-color);
   font-size: 30px;
 }
+
+.repository-link {
+  text-decoration: none;
+  margin-left: 4px;
+}
