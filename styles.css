@@ -53,8 +53,8 @@
   font-size: 24px;
 }
 
-.hero a,
-.content-container a {
+.hero .btn-branding,
+.content-container .btn-branding {
   background-color: var(--secondary-color);
   border-radius: 4px;
   padding: 16px 20px;
@@ -62,17 +62,17 @@
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
-.hero a:hover,
-.content-container a:hover {
+.hero .btn-branding:hover,
+.content-container .btn-branding:hover {
   border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
 }
 
-.body a {
+.body .btn-branding {
   background-color: var(--secondary-color);
 }
 
-.body a:hover {
+.body .btn-branding:hover {
   border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
 }
@@ -82,4 +82,8 @@
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   background-color: #d4ddce;
   padding: 10px;
+}
+
+.contact-page {
+  text-align: center;
 }
