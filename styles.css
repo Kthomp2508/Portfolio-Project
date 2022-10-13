@@ -111,6 +111,24 @@ nav a {
   text-decoration: none;
   color: black;
 }
+
 nav a:hover {
   color: var(--secondary-color);
+}
+
+footer .email-link{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+
+footer .social-links a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: var(--secondary-color);
+  font-size: 30px;
 }
